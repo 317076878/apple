@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>道法果种植计算</title>
+</head>
+<body>
+<!-- 表单，用于提交按钮，隐式提交 -->
+<form action="/result/" method="post">
+<table border="0" width="500px" align="center" bgcolor="#f2f2f2">
+	<caption><h1>药园参数</h1></caption>
+	<tr>
+		<td align="right">每日浇灌次数：</td>
+		<td><input type="text" name="pour_num" id="" placeholder="请输入每日浇灌次数"></td>
+	</tr>
+
+	<tr>
+		<td align="right">每次浇灌时长：</td>
+		<td><input type="text" name="pour_minute" id="" placeholder="请输入每次浇灌时长（分钟）"></td>
+	</tr>
+
+	<tr>
+		<td align="right">道法果类型：</td>
+		<td>
+			<input type="radio" name="fruit_color" value="金色" id="">金色</label>
+			<input type="radio" name="fruit_color" value="紫色" id="">紫色</label>
+		</td>
+	</tr>
+
+	<tr>
+		<td align="right">种植数量：</td>
+		<td>
+			<select name="plant_num">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+			</select>
+
+		</td>
+	</tr>
+
+	<tr>
+		<td align="center" colspan="2">
+			<input type="submit" value="计算">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
